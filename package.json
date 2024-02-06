@@ -1,0 +1,36 @@
+{
+  "name": "red-social-nodejs",
+  "version": "1.0.0",
+  "description": "Proyecto para cursar el curso practico de Node JS",
+  "main": "api/index.js",
+  "scripts": {
+    "test": "nodemon api/index.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "social",
+    "network"
+  ],
+  "author": "Retondo Javier",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "html-pdf": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.1.25",
+    "nodemailer": "^6.6.3",
+    "socket.io": "^4.4.1",
+    "swagger-ui-express": "^4.1.6",
+    "xlsx": "^0.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
